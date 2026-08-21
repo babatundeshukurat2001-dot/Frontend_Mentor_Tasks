@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+:root {
+  --clr-bg: hsl(217, 54%, 11%);
+  --clr-card: hsl(216, 50%, 16%);
+  --clr-line: hsl(215, 32%, 27%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-desc: hsl(215, 51%, 70%);
+  --clr-cyan: hsl(178, 100%, 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-bg);
+  font-family: 'Outfit', sans-serif;
+  color: var(--clr-desc);
+  font-size: 18px;
+  padding: 1rem;
+
+  
+  flex-direction: column;
+  max-width: 350px;
+  background-color: var(--clr-card);
+  border-radius: 15px;
+  padding: 1.5rem;
+  gap: 1.25rem;
+}
+
+.equilibrium {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+h1 {
+  color: var(--clr-white);
+  font-weight: 600;
+  font-size: 1.4rem;
+  cursor: pointer;
+ 
+}
+
+h1:hover {
+  color: var(--clr-cyan);
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid ;
+}
+
+.price,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.price p {
+  color: var(--clr-cyan);
+  font-weight: 600;
+}
+
+.time p {
+  color: var(--clr-desc);
+}
+

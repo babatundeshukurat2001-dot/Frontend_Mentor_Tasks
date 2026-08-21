@@ -1,0 +1,37 @@
+ *{
+    
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-wrapper{
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    width: 40%;
+}
+
+img{
+    object-fit: cover;
+    width: auto;
+    border-radius: 100%;
+}
+
+.social-links h2{
+    background-color: hsl(0, 0%, 20%);
+    padding:10px;
+    border-radius: 10px;
+
+
+}
+.body-wrapper .side{
+    color: yellow;
+}
